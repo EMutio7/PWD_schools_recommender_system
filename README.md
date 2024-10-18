@@ -6,54 +6,54 @@ This project provides a recommender system designed to help users discover schoo
 The project collects and processes data on schools across Kenya, highlighting key information about their support for various disabilities, including physical, sensory, cognitive, and other special needs.
 Features
 
-  School Search: Users can search for schools based on location, types of disabilities supported, and educational level (primary, secondary, etc.).
-  Recommendation Engine: A personalized recommendation system that suggests schools based on user preferences and needs.
-  Accessibility Filters: Filters to find schools that provide accessibility features such as ramps, braille materials, special education teachers, etc.
-  Data Visualization: Visualizes the geographical distribution of schools that support PWDs.
-  Detailed School Information: Provides detailed information on each school, including contact details, type of services provided, and special accommodations.
+    School Search: Users can search for schools based on location, types of disabilities supported, and educational level (primary, secondary, etc.).
+    Recommendation Engine: A personalized recommendation system that suggests schools based on user preferences and needs.
+    Accessibility Filters: Filters to find schools that provide accessibility features such as ramps, braille materials, special education teachers, etc.
+    Data Visualization: Visualizes the geographical distribution of schools that support PWDs.
+    Detailed School Information: Provides detailed information on each school, including contact details, type of services provided, and special accommodations.
 
 Technologies Used
 
-  Programming Language: Python
-  Machine Learning Framework: Scikit-learn
-  Web Framework: Flask
-  Database: PostgreSQL/MySQL
-  Geospatial Data: Google Maps API
-  Frontend: HTML, CSS, JavaScript
-  Visualization: Matplotlib, Seaborn, Plotly
-  Deployment: Docker
+    Programming Language: Python
+    Machine Learning Framework: Scikit-learn
+    Web Framework: Flask
+    Database: PostgreSQL/MySQL
+    Geospatial Data: Google Maps API
+    Frontend: HTML, CSS, JavaScript
+    Visualization: Matplotlib, Seaborn, Plotly
+    Deployment: Docker
 
 How It Works
 
-  Data Collection: The dataset consists of schools in Kenya, sourced from Ministry of Education data and other relevant institutions, with details on the accessibility features and services for persons with disabilities.
-  Preprocessing: The data undergoes cleaning and preprocessing, including handling missing values, standardizing formats, and applying geospatial data for mapping school locations.
-  Recommendation Algorithm: The system uses a content-based filtering algorithm to match user needs (input by the user) with schools that offer suitable services and infrastructure.
-  Web Application: The frontend allows users to input their preferences and disabilities, which the backend processes to recommend suitable schools.
-  Visualization: The system generates maps and charts to display the distribution and concentration of schools across different regions of Kenya.
+    Data Collection: The dataset consists of schools in Kenya, sourced from Ministry of Education data and other relevant institutions, with details on the accessibility features and services for persons with disabilities.
+    Preprocessing: The data undergoes cleaning and preprocessing, including handling missing values, standardizing formats, and applying geospatial data for mapping school locations.
+    Recommendation Algorithm: The system uses a content-based filtering algorithm to match user needs (input by the user) with schools that offer suitable services and infrastructure.
+    Web Application: The frontend allows users to input their preferences and disabilities, which the backend processes to recommend suitable schools.
+    Visualization: The system generates maps and charts to display the distribution and concentration of schools across different regions of Kenya.
 
 Installation
 
   Clone the repository:
 
-  bash
+    bash
 
-git clone https://github.com/username/pwd-school-recommender.git
-cd pwd-school-recommender
+    git clone https://github.com/username/pwd-school-recommender.git
+    cd pwd-school-recommender
 
 Install the required dependencies:
 
-bash
+    bash
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Set up the database:
 
   Create and configure the database (PostgreSQL/MySQL)
   Apply migrations if applicable:
 
-  bash
+    bash
 
-  python manage.py migrate
+    python manage.py migrate
 
 Obtain API keys for geospatial data (e.g., Google Maps API):
 
@@ -61,9 +61,9 @@ Obtain API keys for geospatial data (e.g., Google Maps API):
 
 Run the application:
 
-bash
+    bash
 
-  python manage.py runserver
+    python manage.py runserver
 
 Usage
 
@@ -86,21 +86,21 @@ To contribute:
   Fork the repository.
   Create a new branch for your feature:
 
-  bash
+    bash
 
-git checkout -b feature-name
+    git checkout -b feature-name
 
 Commit your changes:
 
-bash
+    bash
 
-git commit -m "Added feature"
+    git commit -m "Added feature"
 
 Push the branch:
 
-bash
+    bash
 
-  git push origin feature-name
+    git push origin feature-name
 
   Open a pull request.
 
